@@ -1,0 +1,175 @@
+body
+{
+	height:780px;
+	background-image:url(bg.jpg);
+	background-color:black;
+	margin:0px;
+	background-repeat:no-repeat;
+}
+
+[name="rightzone"]
+{
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	width:370px;
+	display:inline-block;
+	position:absolute;
+	left:720px;
+	font-family:"Arial";
+	font-size:22px;
+	color:white;
+	padding-left:25px;
+}
+
+[name="rightzone2"]
+{
+	height:93%;
+	background-color:rgba(0,0,0,0);
+	width:200px;
+	display:inline-block;
+	position:absolute;
+	left:890px;
+	font-family:"Arial";
+	font-size:22px;
+	color:white;
+	padding-left:25px;
+}
+
+[name="leftzone"]
+{
+	width:650px;
+	height:100%;
+	display:inline-block;
+	padding-left:40px;
+	position:absolute;
+}
+
+[name="currentwd"]
+{
+	height:108px;
+	line-height:120px;
+	font-size:60px;
+	color:white;
+	padding-left:30px;
+	background-color:rgba(0,0,0,0.5);
+	font-family:"Arial";
+}
+
+[name="matrix"]
+{
+	height:700px;
+	background-color:rgba(0,0,0,0.5);
+	padding-left:18px;
+}
+
+.lattice
+{
+	transition: top 0.7s  ease, left 0.7s ease;
+	position:absolute;
+	width:130px;
+	height:130px;
+	background-color:rgba(251,125,135,0.75);
+	display:inline-block;
+	font-size:80px;
+	line-height:130px;
+	color:white;
+	text-align:center;
+	cursor:default;
+	border-radius:10px;
+	font-family:"Arial";
+}
+
+[name="totsco"]
+{
+	position:absolute;
+	top:760px;
+	left:256px;
+	font-size:28px;
+}
+
+[name="timer"]
+{
+	position:absolute;
+	top:730px;
+	left:70px;
+	font-size:48px;
+	color:white;
+	font-family:"Arial";
+}
+
+[name="rotate"]
+{
+	border-radius:5px;
+	background-color:rgb(2,63,219);
+	position:absolute;
+	top:739px;
+	left:540px;
+	font-size:40px;
+	color:white;
+	font-family:"Arial";
+	cursor:pointer;
+}
+
+[name="restart"]
+{
+	border-radius:5px;
+	background-color:rgb(2,63,219);
+	position:absolute;
+	top:739px;
+	left:390px;
+	font-size:40px;
+	color:white;
+	font-family:"Arial";
+	cursor:pointer;
+}
+
+[name="tmup"]
+{
+	position:absolute;
+	bottom:1px;
+	left:1px;
+	height:798px;
+	width:1440px;
+	font-size:220px;
+	line-height:798px;
+	color:white;
+	font-family:"Arial";
+	text-align:center;
+	background-color:rgba(0,0,0,0.8);
+}
+
+[name="showall"]
+{
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	width:252px;
+	display:inline-block;
+	position:absolute;
+	left:1140px;
+	font-family:"Arial";
+	font-size:22px;
+	color:white;
+	padding-left:25px;
+}
+
+#msd
+{
+	height:463px;
+}
+
+::-webkit-scrollbar {
+	background-color:rgba(0,0,0,0.5);
+	width:6px;
+}
+::-webkit-scrollbar-button{
+	display:none;
+}
+::-webkit-scrollbar-track{
+	display:none;
+}
+::-webkit-scrollbar-track-piece {
+	background-color:rgb(60,60,60);
+}
+::-webkit-scrollbar-thumb{
+	background-color:#ddd;
+}
